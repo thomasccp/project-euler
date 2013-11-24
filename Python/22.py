@@ -1,4 +1,4 @@
-content = open("names.txt", 'r').read()
+content = open("22.txt", 'r').read()
 names = sorted(content.replace("\"","").split(','), key=str.upper)
 
 total = 0

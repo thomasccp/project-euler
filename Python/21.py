@@ -18,7 +18,7 @@ def sumOfProperDivisors(n):
         start = 3
         step = 2
     # Add all the proper divisors
-    for i in xrange(start,bound,step):
+    for i in xrange(start,bound+1,step):
         if n%i==0:
             sum = sum+i+n/i
     return sum
